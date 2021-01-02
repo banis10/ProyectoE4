@@ -1,0 +1,2578 @@
+//UNIVERSIDAD DE SAN CARLOS DE GUATEMALA
+//PROYECTO DE LABORATORIO DE ELECTRONICA 4 VACACIONES 2020
+//GRUPO6
+//200915032	Josué Daniel Xajil Ramos 
+//201709400	Eliú Miguel Velásquez 
+//201602816	Juan Carlos Solloy Xicón
+//199811304	Anduban Valerio Velasquez Velasquez
+int L2=2;
+int L3=3;
+int L4=4;
+int L5=5;
+int L6=6;
+int L7=7;
+int L8=8;
+int L9=9;
+int L10=10;
+int L11=11;
+
+int tiempo=5;
+int ciclo=35;
+
+void setup(){
+  pinMode(L2,OUTPUT);
+  pinMode(L3,OUTPUT);
+  pinMode(L4,OUTPUT);
+  pinMode(L5,OUTPUT);
+  pinMode(L6,OUTPUT);
+  pinMode(L7,OUTPUT);
+  pinMode(L8,OUTPUT);
+  pinMode(L9,OUTPUT);
+  pinMode(L10,OUTPUT);
+  pinMode(L11,OUTPUT);
+
+}
+
+void loop(){
+
+  //LLAMADO DE FUNCIONES PARA CADA UNA DE LAS LETRAS
+    for(int i = 0; i < ciclo; i++)
+    {
+     Ll(); 
+    }
+
+    for(int i = 0; i < ciclo; i++)
+    {
+     La(); 
+    }
+
+    for(int i = 0; i < ciclo; i++)
+    {
+     Lb(); 
+    }
+
+    for(int i = 0; i < ciclo; i++)
+    {
+     espacio(); 
+    }
+
+      for(int i = 0; i < ciclo; i++)
+    {
+     Le(); 
+    }
+
+    for(int i = 0; i < (ciclo); i++)
+    {
+     Ll(); 
+    }
+
+    for(int i = 0; i < (ciclo); i++)
+    {
+     Le(); 
+    }
+
+      for(int i = 0; i < (ciclo); i++)
+    {
+     Lc(); 
+    }
+
+      for(int i = 0; i < ciclo; i++)
+    {
+     Lt(); 
+    }
+
+      for(int i = 0; i < (ciclo); i++)
+    {
+     Lr(); 
+    }
+    
+      for(int i = 0; i < ciclo; i++)
+    {
+     Lo(); 
+    }
+
+    for(int i = 0; i < (ciclo); i++)
+    {
+     Ln(); 
+    }
+
+      for(int i = 0; i < (ciclo); i++)
+    {
+     Li(); 
+    }
+
+      for(int i = 0; i < (ciclo); i++)
+    {
+     Lc(); 
+    }
+    
+      for(int i = 0; i < (ciclo); i++)
+    {
+     La(); 
+    }
+
+      for(int i = 0; i < (ciclo); i++)
+    {
+     espacio(); 
+    }
+
+      for(int i = 0; i < (ciclo); i++)
+    {
+     N4(); 
+    }
+
+
+      for(int i = 0; i < (ciclo*2); i++)
+    {
+     espacio(); 
+    }
+
+
+  // Escribir aquí el texto
+}
+
+/////////////////FUNCIONES/////////////////////////////////////////////////////////////////////////////////////////
+
+void La(){
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lb(){
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lc(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+    digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+    digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Ld(){
+
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+}
+
+void Le(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lf(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lg(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lh(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Li(){
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lj(){
+  
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lk(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+  
+}
+
+void Ll(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lm(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);  
+}
+
+void Ln(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo); 
+}
+
+
+void Lo(){
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lp(){
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lq(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lr(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);  
+}
+
+void Ls(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lt(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lu(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lv(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);  
+}
+
+void Lw(){
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lx(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Ly(){
+
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void Lz(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+}
+
+void N0(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void N1(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+}
+
+void N2(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+}
+
+void N3(){
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void N4(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void N5(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void N6(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void N7(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void N8(){
+   
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+}
+
+void N9(){
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, HIGH);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, HIGH); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, HIGH);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, HIGH); 
+  digitalWrite(L9, HIGH); 
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, HIGH); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(tiempo);   
+}
+
+void espacio(){
+
+  digitalWrite(L2, LOW); 
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW); 
+  digitalWrite(L8, LOW); 
+  digitalWrite(L9, LOW); 
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  delay(10); 
+}
