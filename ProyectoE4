@@ -51,69 +51,10 @@ void loop(){
      Lb(); 
     }
 
+
     for(int i = 0; i < ciclo; i++)
     {
-     espacio(); 
-    }
-
-      for(int i = 0; i < ciclo; i++)
-    {
      Le(); 
-    }
-
-    for(int i = 0; i < (ciclo); i++)
-    {
-     Ll(); 
-    }
-
-    for(int i = 0; i < (ciclo); i++)
-    {
-     Le(); 
-    }
-
-      for(int i = 0; i < (ciclo); i++)
-    {
-     Lc(); 
-    }
-
-      for(int i = 0; i < ciclo; i++)
-    {
-     Lt(); 
-    }
-
-      for(int i = 0; i < (ciclo); i++)
-    {
-     Lr(); 
-    }
-    
-      for(int i = 0; i < ciclo; i++)
-    {
-     Lo(); 
-    }
-
-    for(int i = 0; i < (ciclo); i++)
-    {
-     Ln(); 
-    }
-
-      for(int i = 0; i < (ciclo); i++)
-    {
-     Li(); 
-    }
-
-      for(int i = 0; i < (ciclo); i++)
-    {
-     Lc(); 
-    }
-    
-      for(int i = 0; i < (ciclo); i++)
-    {
-     La(); 
-    }
-
-      for(int i = 0; i < (ciclo); i++)
-    {
-     espacio(); 
     }
 
       for(int i = 0; i < (ciclo); i++)
